@@ -1,0 +1,254 @@
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+
+}
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+
+    .navbar-toggler-icon {
+        background-color: white;
+       border-radius: 5px;
+    }
+    .banner-section .content h1 {
+        margin-left: 20px;
+       
+    }
+    .banner-section .content h2 {
+        width: 95%;
+        
+    }
+
+    .banner-section .content .btns a {
+        padding: 6px 33px;
+        margin-left: 20px;
+    
+    }
+
+    h2 {
+        margin-left: 20px;
+    }
+
+    .banner-section .content .underline {
+        margin-left: 20px;
+    }
+
+    .banner-section .content p {
+        width: 91%;
+        margin-left: 20px;
+    }
+
+    .banner-section .content .btns a {
+        padding: 7px 33px;
+        margin-left: 20px;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+
+    .card .card-header h3 {
+        font-size: 16px;
+
+    }
+
+    .card .card-body .form-control {
+        padding: 5px 10px 0px;
+    }
+
+    .form-control {
+        padding: 5px;
+    }
+
+    .socail-media h2 {
+        text-align: center;
+    }
+ 
+    .socail-media p {
+        width: 80%;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .social-icon {
+        padding: 18px 5px;
+    }
+
+    .social-icon a {
+        font-size: 35px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .tab-section {
+        display: none;
+    }
+
+    .sub-list {
+        width: 100%;
+        padding: 35px 0px;
+    }
+
+    .sub-list h2 {
+        text-align: center;
+    }
+
+    .sub-list .underline {
+        margin: 20px auto;
+
+    }
+    .sub-list p {
+        width: 90%;
+    }
+    .sub-list .title {
+        margin-left: 20px;
+    
+    }
+    .sub-list .title .right p {
+        width: 90%;
+        margin-left: 0;
+    }
+    .sub-list .title .right h5 {
+       margin-top: 15px;
+    }
+    .pic-section {
+        width: 100%;
+        padding: 40px;
+        
+    }
+    .pic-section .content h2 {
+      text-align: center;
+      font-size: 24px;
+    }
+    .pic-section .content .underline {
+        margin: 20px auto;
+   
+    }
+    .pic-section .content p {
+        width: 100%;
+    }
+    .service-section {
+        padding: 40px 0px 30px;
+    }
+    .service-section h2 {
+        font-size: 30px;
+       
+    }
+    .service-section p {
+        width: 90%;
+    
+    }
+    .pricing-section {
+        padding: 40px 0px;
+    }
+    .p-card {
+        margin-left: 22px;
+    }
+    .testimonial {
+        width: 100%;
+        padding: 40px 0px;
+        
+    }
+    .testimonial h2 {
+        font-size: 29px;    
+    }
+    .testimonial .top p {
+        margin-left: 30px;
+    }
+    .testimonial .intro .left {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .testimonial .intro .right h4 {
+        margin-top: 15px;
+       
+    }
+    .testimonial .child {
+        position: absolute;
+        left: 45px;
+      
+    }
+    .sub-list p {
+        width: 90%;
+        /* text-align: center; */
+        /* padding: 0px 10px; */
+        margin-left: 25px;
+    }
+    .action {
+        padding: 40px;
+    }
+    .action h2 {
+        font-size: 26px;     
+    }
+    .action p {
+        width: 96%;
+    }
+    .contact {
+        padding: 40PX;
+    }
+    .contact form .form-part {
+        flex-direction: column;
+    }
+    .form-control {
+        padding: 10px;
+    
+    }
+    .contact form textarea {
+        height: 130px;
+    }
+    .contact p {
+        width: 100%;
+        margin-bottom: -30px;
+    }
+}
